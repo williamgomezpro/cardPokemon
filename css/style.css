@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+  background-color: #ffc91a;
+  background-image: url("../img/bg-pattern-top.svg"), url("../img/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh; }
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.card {
+  background-color: white;
+  width: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315); }
+  .card-header {
+    width: 100%;
+    height: 160px;
+    display: block;
+    object-fit: cover; }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11); }
+    .card-body-persona {
+      border-radius: 50%;
+      border: 6px solid #D5A100;
+      width: 200px;
+      height: 200px;
+      margin-top: calc(-100px - 6px);
+      background-color: #0075BE; }
+    .card-body-title {
+      font-size: 1.1rem;
+      margin: 1.1rem 0 0.8rem 0;
+      color: #2d3248;
+      text-transform: capitalize; }
+    .card-body span, .card-body p {
+      color: #969696;
+      font-weight: 400; }
+    .card-body p {
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem; }
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem; }
+    .card-footer-social {
+      text-align: center; }
+      .card-footer-social h3 {
+        font-weight: 700;
+        color: #2d3248;
+        font-size: 1.1rem;
+        margin-bottom: 5px; }
+      .card-footer-social p {
+        color: #6a6f81;
+        font-size: 0.7rem;
+        letter-spacing: 1px; }
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+  font-weight: 400; }
+  footer a {
+    color: #3e52a3; }
